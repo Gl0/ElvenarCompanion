@@ -41,5 +41,5 @@ Each report is labeled as *serverName_fellowshipId* (same id's as on Elvenstats)
 
 If it stays opened - it will be refreshed in realtime with information about FS Spire progress in currently active game tab.
 
-**Obviously, it can show only update stats when you are playing, so to see accurate stats between Spires you should be online at the moment when Spire ends. 
+**Obviously, it can gather up-to-date stats only when you are playing, so to see accurate stats between Spires you should be online at the moment when Spire ends. 
 Or (if you are tracking multiple fellowships - log in to each of them and visit the spire as close to spire end as possible.**
