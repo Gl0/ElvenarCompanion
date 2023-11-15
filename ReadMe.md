@@ -33,7 +33,7 @@ To get player names it has to catch the beginning of connection to chat server a
 
 Spire stats are updated in realtime either on entering the Spire or when someone in your FS progress through the Spire.
 
-Extension adds a button on toolbar, which opens spire stats report tab.
+Extension adds a button on toolbar, which opens Spire stats report tab.
 
 Report tab will show information for all fellowships Companion has seen even if Spire is already closed and you are offline.
 
@@ -42,4 +42,4 @@ Each report is labeled as *serverName_fellowshipId* (same id's as on Elvenstats)
 If it stays opened - it will be refreshed in realtime with information about FS Spire progress in currently active game tab.
 
 **Obviously, it can gather up-to-date stats only when you are playing, so to see accurate stats between Spires you should be online at the moment when Spire ends. 
-Or (if you are tracking multiple fellowships - log in to each of them and visit the spire as close to spire end as possible.**
+Or (if you are tracking multiple fellowships) - log in to each of them and visit the Spire as close to Spire end as possible.**
