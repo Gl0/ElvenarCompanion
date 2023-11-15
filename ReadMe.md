@@ -20,7 +20,7 @@ If you close/cancel it - extension won't be able to track game connection.
 
 The only way to remove it is to run chrome with `--silent-debugger-extension-api` command line switch.
 
-There is no way to know how many archive points were spent => Companion calculates it as Overall_FS_score - Sum(individual_scores). If someone leaves FS during Spire, their contribution also goes to "Archive" dummy user.
+There is no way to know how many archive points were spent => Companion calculates it as `Overall_FS_score - Sum(individual_scores)`. If someone leaves FS during Spire, their contribution also goes to "Archive" dummy user.
 
 * Usage
 
