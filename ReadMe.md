@@ -3,14 +3,16 @@
 
 Elvenar Companion is a small Chrome extension which only function for now is to help archmages to track Spire stats for their fellowships while playing [Elvenar](https://elvenar.com).
 
-* Installation
+Installation
+---------
 
 1. Unpack archive to some folder.
 2. Open chrome://extensions/
 3. Enable developer mode
 4. Use "Load unpacked" button to find and load Elvenar Companion from folder (1).
 
-* Limitations
+Limitations
+---------
 
 To be able to receive websocket messages from the game, extension attaches debugger to game tab when you enter the game.
 
@@ -22,7 +24,8 @@ The only way to remove it is to run chrome with `--silent-debugger-extension-api
 
 There is no way to know how many archive points were spent => Companion calculates it as `Overall_FS_score - Sum(individual_scores)`. If someone leaves FS during Spire, their contribution also goes to "Archive" dummy user.
 
-* Usage
+Usage
+---------
 
 After loading and enabling extension, it will start to gather info in background.
 
@@ -38,3 +41,5 @@ Each report is labeled as *serverName_fellowshipId* (same id's as on Elvenstats)
 
 If it stays opened - it will be refreshed in realtime with information about FS Spire progress in currently active game tab.
 
+**Obviously, it can show only update stats when you are playing, so to see accurate stats between Spires you should be online at the moment when Spire ends. 
+Or (if you are tracking multiple fellowships - log in to each of them and visit the spire as close to spire end as possible.**
