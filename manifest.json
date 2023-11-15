@@ -1,0 +1,21 @@
+{
+  "name": "Elvenar Companion",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Provides additional information about Elvenar in side panel.",
+  "author": "Karvest@beta",
+  "host_permissions": ["https://*.elvenar.com/game"],
+//  "minimum_chrome_version": "116", // required for sidepanel.open()
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "icons": {
+    "128": "images/icon-128.png",
+    "16": "images/icon-16.png"
+  },
+  "action": {
+   "default_title": "Click to open panel"
+  },
+  "permissions": ["webRequest", "debugger", "tabs", "storage"]
+//  "permissions": ["sidePanel", "webRequest", "debugger", "tabs", "storage"]
+}
